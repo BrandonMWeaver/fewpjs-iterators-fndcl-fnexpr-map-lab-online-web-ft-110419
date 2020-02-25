@@ -16,7 +16,7 @@ const titleCased = () => {
     let words = tutorial.split(' ');
     return words.map(function(word) {
       return word.map(function(character) {
-        return 
+        return character.
       });
     });
   });
