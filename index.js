@@ -12,7 +12,7 @@ const tutorials = [
 ];
 
 const titleCased = () => {
-  return string.map(function(string) {
+  return tutorials.map(function(tutorial) {
     
   });
 };
