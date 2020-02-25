@@ -13,7 +13,7 @@ const tutorials = [
 
 const titleCased = () => {
   return tutorials.map(function(tutorial) {
-    let words = line.split(' ');
+    let words = tutorial.split(' ');
     let capitalizedWords = words.map(function(word) {
       token.charAt(0).toUpperCase() + token.slice(1);
     });
