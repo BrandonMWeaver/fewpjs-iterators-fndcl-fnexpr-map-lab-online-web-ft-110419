@@ -15,6 +15,8 @@ const titleCased = () => {
   return tutorials.map(function(tutorial) {
     let words = tutorial.split(' ');
     return words.map(function(word) {
+      let characters = word.split('');
+      characters[0] = characters[0].toUpperCase();
     });
   });
 };
